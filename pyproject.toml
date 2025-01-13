@@ -1,6 +1,6 @@
 [project]
 name = "jacob-os-version-check"
-version = "0.1.0"
+version = "0.2.4"
 description = "Detects and outputs the os vesion."
 authors = [
     {name = "jacob53", email = "jacob8753@gmail.com"},
@@ -17,3 +17,8 @@ build-backend = "pdm.backend"
 
 [tool.pdm]
 distribution = true
+
+
+[project.urls]
+Homepage = "https://github.com/Jacob-53/jacob-os-version-check"
+Issues = "https://github.com/Jacob-53/jacob-os-version-check/issues"
