@@ -1,2 +1,18 @@
 # jacob-os-version-check 
-# version= 0.1.0
+### Development enviroment setting
+``` bash
+
+# install PDM
+# git clone ... 
+$ source .venv/bin/activate
+$ pdm install
+# $ vi .... (coding)
+# TEST
+$ pdm install
+$ pdm test
+$ pip install . 
+$ git add  <file_name>
+$ git commit -a
+$ git push
+$ pdm publish
+```
