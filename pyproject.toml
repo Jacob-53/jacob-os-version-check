@@ -17,3 +17,8 @@ build-backend = "pdm.backend"
 
 [tool.pdm]
 distribution = true
+
+
+[project.urls]
+Homepage = "https://github.com/Jacob-53/jacob-os-version-check"
+Issues = "https://github.com/Jacob-53/jacob-os-version-check/issues"
