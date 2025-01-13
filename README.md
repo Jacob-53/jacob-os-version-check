@@ -16,3 +16,11 @@ $ git commit -a
 $ git push
 $ pdm publish
 ```
+
+# Usage
+```python
+$ pip install jacob_os_version_check
+$ python
+>>> from jacob_os_version_check.hi import hi
+>>> hi()
+```
