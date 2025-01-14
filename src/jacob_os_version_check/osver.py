@@ -2,12 +2,12 @@ import sys
 import platform
 
 def os_check_j() -> str:
-    if platform.system() == "Windows":
+    if platform.system().lower() == "windows":
         return win_os_ver()
-    elif "linux" in platform.system():
+    elif "linux" in platform.system().lower() or "ubuntu" in platform.system().lower():
         return get_os_pretty_name()
     else:
-        return None
+        return "Unknown OS"
 
 def win_os_ver():
     return f"{platform.system()} {platform.version()}  {platform.release()}"
