@@ -59,7 +59,7 @@ art = """
 """
 
 
-def hi():kk
+def hi():
     print(art)
 
 def random_pic():
