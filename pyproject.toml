@@ -1,6 +1,6 @@
 [project]
 name = "jacob-os-version-check"
-version = "0.4.1"
+version = "0.4.2"
 description = "Detects and outputs the os vesion."
 authors = [
     {name = "jacob53", email = "jacob8753@gmail.com"},
