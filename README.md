@@ -78,9 +78,17 @@ $ pdm publish
 ```
 
 # Usage
+
 ```python
 $ pip install jacob_os_version_check
 $ python
 >>> from jacob_os_version_check.hi import hi
 >>> hi()
+
+ # Random Print
+>>>from jacob_os_version_check.hi import random_pic
+>>>random_pic()
+
+
+
 ```
