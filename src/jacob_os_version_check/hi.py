@@ -73,10 +73,10 @@ def random_pic():
     import random
     import importlib
 
-    pool={0:"check_os_ver",1:"hj_check_os_version",2:"jacob_os_version_check",3:"lucas_check_os_ver",4:"stundrg_check_os_ver",5:"cho_check_os_ver",6:"nunininu_check_os_ver",7:"seo_check_os_version"}
-    whosnext = pool[random.randint(0,7)]
+    pool=["check_os_ver","hj_check_os_version","jacob_os_version_check","lucas_check_os_ver","stundrg_check_os_ver","cho_check_os_ver","nunininu_check_os_ver","seo_check_os_version"]
+    whosnext = random.choice(pool)
     module = importlib.import_module(whosnext)
     return module.hi()
 
-    print(random_pic())
+print(random_pic())
 
