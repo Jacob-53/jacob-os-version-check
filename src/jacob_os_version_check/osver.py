@@ -10,7 +10,7 @@ def os_check_j() -> str:
         return "Unknown OS"
 
 def win_os_ver():
-    return f"{platform.system()} {platform.version()}  {platform.release()}"
+    return f"{platform.system()} {platform.release()}  {platform.version()}"
 
 
 

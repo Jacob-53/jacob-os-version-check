@@ -12,7 +12,7 @@ requires_python = ">=3.10"
 
 [[package]]
 name = "check-os-ver"
-version = "0.3.0"
+version = "0.4.3"
 requires_python = ">=3.10"
 summary = "Default template for PDM package"
 groups = ["default"]
@@ -28,13 +28,13 @@ dependencies = [
     "stundrg-check-os-ver",
 ]
 files = [
-    {file = "check_os_ver-0.3.0-py3-none-any.whl", hash = "sha256:989a56659053c403f58269da6585443ab972627b23b16faba1d279880ea2530f"},
-    {file = "check_os_ver-0.3.0.tar.gz", hash = "sha256:e9c04297da333e5eff0cc7719075acfca2b2ec893f9efb9d07ddc3a314d82bae"},
+    {file = "check_os_ver-0.4.3-py3-none-any.whl", hash = "sha256:2caa62d83f712e3c0be890c7f50566805d3f722a6f2f22da541bd2b0f5eecf39"},
+    {file = "check_os_ver-0.4.3.tar.gz", hash = "sha256:2e754f2eef5006ffd36d27fa0973401cd9706228aa1e494023c56455801daa8c"},
 ]
 
 [[package]]
 name = "cho-check-os-ver"
-version = "0.3.8.1"
+version = "0.3.8.4"
 requires_python = ">=3.10"
 summary = "Default template for PDM package"
 groups = ["default"]
@@ -48,8 +48,8 @@ dependencies = [
     "stundrg-check-os-ver>=0.2.3",
 ]
 files = [
-    {file = "cho_check_os_ver-0.3.8.1-py3-none-any.whl", hash = "sha256:9d206029f4501c5105ae72d136a929850ee2fdb7ddbd5cc5099b26ba8264e6c4"},
-    {file = "cho_check_os_ver-0.3.8.1.tar.gz", hash = "sha256:2cc0cf29f25d093614ce67fcd190f4f295e8aa59e675980d01a7e82d93c5c97e"},
+    {file = "cho_check_os_ver-0.3.8.4-py3-none-any.whl", hash = "sha256:acd5fab75fcbbbb5ffb107f1e3acfce793e8d6725a415c0d91f643c84bbc0605"},
+    {file = "cho_check_os_ver-0.3.8.4.tar.gz", hash = "sha256:ca4e02eb041e9962e8a3f849569446eb6a3e4f0f15cee5bf5a24b923defa2163"},
 ]
 
 [[package]]
@@ -205,7 +205,7 @@ files = [
 
 [[package]]
 name = "hj-check-os-version"
-version = "0.3.5"
+version = "0.3.7"
 requires_python = ">=3.10"
 summary = "Default template for PDM package"
 groups = ["default"]
@@ -220,8 +220,8 @@ dependencies = [
     "stundrg-check-os-ver>=0.2.3",
 ]
 files = [
-    {file = "hj_check_os_version-0.3.5-py3-none-any.whl", hash = "sha256:1b0497f39ab231f918a91e547b33461ebb84987be4650f95eeaffb188e5a2f11"},
-    {file = "hj_check_os_version-0.3.5.tar.gz", hash = "sha256:19a1c12ae2df0a50490171232b1c04bb09dd50fc2bde0d09b18ed689cae60a37"},
+    {file = "hj_check_os_version-0.3.7-py3-none-any.whl", hash = "sha256:42c79f7346d6aa1304315eebc9d2a571bf3f3b4cbe49ed83ecb2e633d6af347d"},
+    {file = "hj_check_os_version-0.3.7.tar.gz", hash = "sha256:d3d00ee70468552b366d3d2083dd5dfaf80f916263f02fa485328f4a666d558f"},
 ]
 
 [[package]]
@@ -258,7 +258,7 @@ files = [
 
 [[package]]
 name = "nunininu-check-os-ver"
-version = "0.3.3"
+version = "0.3.3.2"
 requires_python = ">=3.10"
 summary = "Default template for PDM package"
 groups = ["default"]
@@ -272,8 +272,8 @@ dependencies = [
     "stundrg-check-os-ver>=0.2.3",
 ]
 files = [
-    {file = "nunininu_check_os_ver-0.3.3-py3-none-any.whl", hash = "sha256:44b6bdedb710483bc9d3e46c615cce813dc8298796e1dba1152da4cd8ad57cf0"},
-    {file = "nunininu_check_os_ver-0.3.3.tar.gz", hash = "sha256:5ec4a2a12dfa5ed169d244f6c18cd8689d851ed4720fe058e3ff54f15be8598d"},
+    {file = "nunininu_check_os_ver-0.3.3.2-py3-none-any.whl", hash = "sha256:cd7ca2fad14a9a70a3fbe4a064b74d78918f68060a7e9b59ff88e38a6f3d6233"},
+    {file = "nunininu_check_os_ver-0.3.3.2.tar.gz", hash = "sha256:11a4bbf04e69f2e31b8d0c0be53621d613de3f5294a5da562ce8247b87ce5b05"},
 ]
 
 [[package]]
@@ -366,22 +366,22 @@ files = [
 
 [[package]]
 name = "stundrg-check-os-ver"
-version = "0.3.1"
+version = "0.3.3"
 requires_python = ">=3.10"
 summary = "Utility that checks the name and version of the operating system."
 groups = ["default"]
 dependencies = [
     "check-os-ver>=0.2.1",
     "cho-check-os-ver>=0.2.3",
-    "hj-check-os-version>=0.2.1",
+    "hj-check-os-version>=0.3.4",
     "jacob-os-version-check>=0.2.4",
     "lucas-check-os-ver>=0.2.1",
     "nunininu-check-os-ver>=0.3.0",
     "seo-check-os-version>=0.2.0",
 ]
 files = [
-    {file = "stundrg_check_os_ver-0.3.1-py3-none-any.whl", hash = "sha256:49e655feea73e9172d6bb8f6ae62557b220975d4dc5aa2aa75ea5bfe34f2dd8b"},
-    {file = "stundrg_check_os_ver-0.3.1.tar.gz", hash = "sha256:6918db8904cc0a25a4051317a559a66f6c3569d85f9985a713e2a650d85c0652"},
+    {file = "stundrg_check_os_ver-0.3.3-py3-none-any.whl", hash = "sha256:e2ce048ffb51eb867783f9cf6e6d1fb24edb1f626e17dbcecb7e1d24f693d66f"},
+    {file = "stundrg_check_os_ver-0.3.3.tar.gz", hash = "sha256:7ff5ed953975c1b813a26d57c0545581220897b0dfe6e9c909023aae09dd8968"},
 ]
 
 [[package]]
