@@ -62,6 +62,7 @@ This version is clearer and more polished. Let me know if you need further adjus
 
 # install PDM
 # git clone ... 
+$ pdm venv create
 $ source .venv/bin/activate
 $ pdm install
 # $ vi .... (coding)
@@ -76,6 +77,21 @@ $ git commit -a
 $ git push
 $ pdm publish
 ```
+
+### TEST
+- https://docs.pytest.org/en/stable/
+``` bash
+# $ pdm add -dG test pytest pytest-cov
+$ pytest
+$ pytest -s
+$ pytest --cov
+```
+
+### Ref
+- https://pdm-project.org/en/latest/
+- https://pdm-project.org/en/latest/usage/dependency/
+
+
 
 # Usage
 
