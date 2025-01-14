@@ -1,5 +1,5 @@
 # jacob-os-version-check 
-This package is designed for those who want to check their server version.                                              I will be updating this package to include features for Windows and Mac.                                                If anyone encounters issues with this package, please feel free to leave a message.
+This package is designed for those who want to check their server version.                                              I will be updating this package to include features for Mac.                                                If anyone encounters issues with this package, please feel free to leave a message.
 This version is clearer and more polished. Let me know if you need further adjustments!
 
 
@@ -56,12 +56,33 @@ This version is clearer and more polished. Let me know if you need further adjus
 =............+*.......=*+-:.:#..........-#*=...+%**#*==================
 ```
 
+# Usage
+
+```
+ # Print "Homer"
+python
+$ pip install jacob_os_version_check
+$ python
+>>> from jacob_os_version_check.hi import hi
+>>> hi()
+
+ # Random Print
+>>> from jacob_os_version_check.hi import random_pic
+>>> random_pic()
+
+ # OS ver Print
+>>> from jacob_os_version_check.osver import os_check_j
+>>> os_check_j()
+
+```
+
 # Development enviroment setting
 
 ``` bash
 
 # install PDM
 # git clone ... 
+$ pdm venv create
 $ source .venv/bin/activate
 $ pdm install
 # $ vi .... (coding)
@@ -77,18 +98,17 @@ $ git push
 $ pdm publish
 ```
 
-# Usage
-
-```python
-$ pip install jacob_os_version_check
-$ python
->>> from jacob_os_version_check.hi import hi
->>> hi()
-
- # Random Print
->>>from jacob_os_version_check.hi import random_pic
->>>random_pic()
-
-
-
+### TEST
+- https://docs.pytest.org/en/stable/
+``` bash
+# $ pdm add -dG test pytest pytest-cov
+$ pytest
+$ pytest -s
+$ pytest --cov
 ```
+
+### Ref
+- https://pdm-project.org/en/latest/
+- https://pdm-project.org/en/latest/usage/dependency/
+
+
