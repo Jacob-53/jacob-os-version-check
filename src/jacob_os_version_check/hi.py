@@ -59,24 +59,21 @@ art = """
 """
 
 
-def hi():
+def hi():kk
     print(art)
 
 def random_pic():
-    from check_os_ver.hi import hi
-    from hj_check_os_version.hi import hi
-    from lucas_check_os_ver.hi import hi
-    from stundrg_check_os_ver.hi import hi
-    from cho_check_os_ver.hi import hi
-    from nunininu_check_os_ver.hi import hi
-    from seo_check_os_version.hi import hi
+    from check_os_ver.hi import hi as r1
+    from hj_check_os_version.hi import hi as r2
+    from lucas_check_os_ver.hi import hi as r3
+    from stundrg_check_os_ver.hi import hi as r4
+    from cho_check_os_ver.hi import hi as r5
+    from nunininu_check_os_ver.hi import hi as r6
+    from seo_check_os_version.hi import hi as r7
     import random
-    import importlib
 
-    pool=["check_os_ver","hj_check_os_version","jacob_os_version_check","lucas_check_os_ver","stundrg_check_os_ver","cho_check_os_ver","nunininu_check_os_ver","seo_check_os_version"]
-    whosnext = random.choice(pool)
-    module = importlib.import_module(whosnext)
-    return module.hi()
+    pool=[r1,r2,r3,r4,r5,r6,r7]
+    whosnext = random.choice(pool)()
+    return(whosnext)
 
-print(random_pic())
 
