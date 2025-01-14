@@ -56,6 +56,26 @@ This version is clearer and more polished. Let me know if you need further adjus
 =............+*.......=*+-:.:#..........-#*=...+%**#*==================
 ```
 
+# Usage
+
+```
+ # Print "Homer"
+python
+$ pip install jacob_os_version_check
+$ python
+>>> from jacob_os_version_check.hi import hi
+>>> hi()
+
+ # Random Print
+>>> from jacob_os_version_check.hi import random_pic
+>>> random_pic()
+
+ # OS ver Print
+>>> from jacob_os_version_check.osver import os_check_j
+>>> os_check_j()
+
+```
+
 # Development enviroment setting
 
 ``` bash
@@ -92,19 +112,3 @@ $ pytest --cov
 - https://pdm-project.org/en/latest/usage/dependency/
 
 
-
-# Usage
-
-```python
-$ pip install jacob_os_version_check
-$ python
->>> from jacob_os_version_check.hi import hi
->>> hi()
-
- # Random Print
->>>from jacob_os_version_check.hi import random_pic
->>>random_pic()
-
-
-
-```
