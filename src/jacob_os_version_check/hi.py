@@ -78,5 +78,5 @@ def random_pic():
     module = importlib.import_module(whosnext)
     return module.hi()
 
-print(random_pic())
+    print(random_pic())
 
